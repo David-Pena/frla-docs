@@ -1,0 +1,52 @@
+:root {
+  --vp-c-brand: #4f46e5;
+  --vp-c-brand-light: #6366f1;
+  --vp-c-brand-dark: #4338ca; 
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #4f46e5);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 30%, #4f46e5);
+  --vp-home-hero-image-filter: blur(72px);
+}
+
+.vp-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 4rem 0;
+  margin: 0 auto;
+  max-width: 1152px;
+}
+
+.vp-feature {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--vp-c-bg-soft);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vp-feature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.vp-feature h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: var(--vp-c-brand);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.vp-feature p {
+  margin: 0;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.custom-block {
+  margin: 2rem 0;
+}
