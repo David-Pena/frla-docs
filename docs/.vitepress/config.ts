@@ -1,11 +1,10 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'Firebase Rules Learning Assistant',
+  title: 'Firebase Rules Assistant',
   description:
     'An interactive learning tool designed to help anyone understand, learn, and experiment with Firebase Rules',
   themeConfig: {
-    logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/guide/' },
