@@ -51,4 +51,5 @@ export default defineConfig({
       copyright: 'Created by Unans with Bolt ⚡',
     },
   },
+  outDir: './dist',
 });
