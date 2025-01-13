@@ -11,7 +11,7 @@ hero:
       link: /guide
     - theme: alt
       text: Try it out
-      link: https://funny-kelpie-b0fdc1.netlify.app/
+      link: https://firebase-rules-learning-assistant.netlify.app/
 
 features:
   - icon: 📚
